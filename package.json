@@ -1,0 +1,13 @@
+{
+  "name": "playground-castv2",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "demo-01": "node ./demos/01/app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "castv2": "^0.1.10",
+    "node-dns-sd": "^0.4.0"
+  }
+}
