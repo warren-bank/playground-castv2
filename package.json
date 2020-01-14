@@ -5,12 +5,19 @@
   "scripts": {
     "demo-01": "node ./demos/01-launch-app/app.js",
     "demo-02": "node ./demos/02-play-mp4-video/app.js",
-    "demo-03": "node ./demos/03-play-HLS-stream/app.js"
+    "demo-03": "node ./demos/03-play-HLS-stream/app.js",
+    "demo-04": "node ./demos/04-play-HLS-video-IPFS-gateway/app.js",
+
+    "debug-demo-01": "cross-env DEBUG=* npm run demo-01",
+    "debug-demo-02": "cross-env DEBUG=* npm run demo-02",
+    "debug-demo-03": "cross-env DEBUG=* npm run demo-03",
+    "debug-demo-04": "cross-env DEBUG=* npm run demo-04"
   },
   "license": "MIT",
   "dependencies": {
     "castv2": "^0.1.10",
     "castv2-client": "^1.2.0",
+    "cross-env": "^6.0.3",
     "node-dns-sd": "^0.4.0"
   }
 }

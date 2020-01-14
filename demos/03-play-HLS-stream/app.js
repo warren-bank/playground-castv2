@@ -12,8 +12,13 @@ function ondeviceup(host) {
     console.log('connected, launching app ...');
 
     client.launch(DefaultMediaReceiver, function(err, player) {
-      // CBSN
-      //   https://www.cbsnews.com/live/
+      // https://www.cbsnews.com/live/
+      //   CBSN
+      // https://developers.google.com/cast/docs/reference/chrome/chrome.cast.media.MediaInfo#contentId
+      // https://developers.google.com/cast/docs/reference/chrome/chrome.cast.media.MediaInfo#contentType
+      // https://developers.google.com/cast/docs/reference/chrome/chrome.cast.media.MediaInfo#streamType
+      // https://developers.google.com/cast/docs/reference/chrome/chrome.cast.media#.StreamType
+      //   enum StreamType {'BUFFERED','LIVE','OTHER'}
       var media = {
         contentId:   'https://www.cbsnews.com/common/video/cbsn_header_prod.m3u8',
         contentType: 'application/x-mpegURL',
