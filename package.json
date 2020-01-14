@@ -3,8 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "demo-01": "node ./demos/01/app.js",
-    "demo-02": "node ./demos/02/app.js"
+    "demo-01": "node ./demos/01-launch-app/app.js",
+    "demo-02": "node ./demos/02-play-mp4-video/app.js",
+    "demo-03": "node ./demos/03-play-HLS-stream/app.js"
   },
   "license": "MIT",
   "dependencies": {

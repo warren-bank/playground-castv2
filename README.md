@@ -5,7 +5,7 @@
 * [castv2](https://github.com/thibauts/node-castv2)
   - [MIT license](https://github.com/thibauts/node-castv2/blob/master/LICENSE)
   - awesome!
-* [node-castv2-client](https://github.com/thibauts/node-castv2-client)
+* [castv2-client](https://github.com/thibauts/node-castv2-client)
   - [MIT license](https://github.com/thibauts/node-castv2-client/blob/master/LICENSE)
   - awesome!
 * [node-dns-sd](https://github.com/futomi/node-dns-sd)
